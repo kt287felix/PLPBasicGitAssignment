@@ -1,1 +1,69 @@
 Hello,Git!
+Open terminal and navigate to the folder:
+
+Open your terminal or command prompt
+Use the cd command to navigate to your new folder:
+Copycd path/to/PLPBasicGitAssignment
+Initialize Git repository:
+
+In the terminal, while inside your new folder, run:
+Copygit init
+
+
+
+Connect to GitHub:
+
+Use the command you provided, replacing <repository-url> with your actual GitHub repository URL:
+Copygit remote add origin <repository-url>
+Create a new file:
+
+You can use a text editor or the terminal to create a file named hello.txt
+Add the text "Hello, Git!" to this file
+
+
+Stage the changes:
+
+In the terminal, run:
+Copygit add hello.txt
+Commit the changes:
+After staging the file, commit it with a message:
+bashCopygit commit -m "Add hello.txt with a greeting"
+
+Push to GitHub:
+Push your committed changes to GitHub:
+bashCopygit push -u origin main
+Note: If your default branch is named "master" instead of "main", you'll need to use:
+bashCopygit push -u origin master
+
+Verify on GitHub:
+
+Open a web browser and go to your GitHub repository's URL
+Check that hello.txt appears in the file list
+Click on hello.txt to verify its contents
+Check that your commit message "Add hello.txt with a greeting" is visible in the commit history
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
